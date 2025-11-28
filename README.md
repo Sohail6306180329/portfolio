@@ -1,1 +1,82 @@
-# portfolio
+# portfolio[Sohail.html](https://github.com/user-attachments/files/23822443/Sohail.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Sohail Ansari | Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;}
+body{background:#0f172a;color:#e2e8f0;}
+a{color:#38bdf8;}
+header{display:flex;justify-content:space-between;align-items:center;padding:16px 32px;background:rgba(15,23,42,0.95);position:sticky;top:0;z-index:10;}
+header h1{font-size:22px;color:#38bdf8;}
+nav a{margin-left:20px;text-decoration:none;color:#e2e8f0;font-size:14px;transition:0.3s;}
+nav a:hover{color:#38bdf8;}
+.hero{text-align:center;padding:70px 20px 40px;}
+.hero h2{font-size:30px;color:#38bdf8;margin-bottom:10px;}
+.hero p{opacity:0.9;font-size:15px;max-width:650px;margin:auto;line-height:1.5;}
+.hero-buttons{margin-top:18px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap;}
+.btn{padding:8px 16px;border-radius:999px;font-size:14px;border:1px solid #38bdf8;background:transparent;color:#e2e8f0;text-decoration:none;cursor:pointer;}
+.btn.primary{background:#38bdf8;color:#0f172a;border:none;}
+.btn:hover{opacity:0.9;}
+.section{max-width:1000px;margin:auto;padding:50px 20px;}
+.section h2{color:#38bdf8;margin-bottom:20px;font-size:24px;}
+.section p{font-size:14px;line-height:1.6;opacity:0.9;}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin-top:12px;}
+.card{background:#1e293b;border-radius:12px;padding:16px;border:1px solid rgba(255,255,255,0.08);}
+.card h3{color:#e2e8f0;margin-bottom:8px;font-size:16px;}
+.card p{font-size:13px;opacity:0.95;line-height:1.5;margin-bottom:6px;}
+.card a{font-size:13px;text-decoration:none;}
+.links-list a{display:block;font-size:14px;text-decoration:none;margin-bottom:6px;word-break:break-all;}
+.links-list a span{color:#e5e7eb;opacity:0.9;margin-right:4px;}
+.links-list a:hover{text-decoration:underline;}
+footer{text-align:center;padding:18px;opacity:0.7;font-size:12px;}
+</style>
+</head>
+<body>
+<header><h1>Sohail Ansari</h1>
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#profiles">Profiles</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav></header>
+<section class="hero"><h2>Python Developer & Data Analyst</h2>
+<p>B.Tech CSE student at Integral University with hands-on experience in Python, Data Analysis, SQL, Flask and basic Machine Learning.</p>
+<div class="hero-buttons"><a href="#projects" class="btn primary">View Projects</a><a href="#profiles" class="btn">Online Profiles</a></div></section>
+<section id="about" class="section"><h2>About Me</h2>
+<p>I am <b>Sohail Ansari</b>, pursuing B.Tech in Computer Science & Engineering (2023–2026) from Integral University, Lucknow.</p></section>
+<section id="skills" class="section"><h2>Skills</h2>
+<div class="cards">
+<div class="card"><h3>Programming</h3><p>Python, Java (Basics), C++ (Basics)</p></div>
+<div class="card"><h3>Data & Analytics</h3><p>Pandas, NumPy, Matplotlib, Seaborn, Statistics, Excel</p></div>
+<div class="card"><h3>Backend & Databases</h3><p>Flask, REST APIs, MySQL, SQLite, MongoDB</p></div>
+<div class="card"><h3>Tools & Others</h3><p>Git, GitHub, VS Code, Jupyter Notebook, Postman, DSA</p></div>
+</div></section>
+<section id="profiles" class="section"><h2>Online Profiles</h2>
+<div class="cards">
+<div class="card"><h3>GitHub</h3><p>My repositories and project source code.</p><div class="links-list"><a href="https://github.com/Sohail6306180329" target="_blank"><span>🔗</span>github.com/Sohail6306180329</a></div></div>
+<div class="card"><h3>LinkedIn</h3><p>Professional profile and activities.</p><div class="links-list"><a href="https://www.linkedin.com/in/sohail-ansari-9b2b72309/" target="_blank"><span>🔗</span>linkedin.com/in/sohail-ansari-9b2b72309</a></div></div>
+<div class="card"><h3>HackerRank</h3><p>Coding practice.</p><div class="links-list"><a href="https://www.hackerrank.com/profile/sohailas" target="_blank"><span>🔗</span>hackerrank.com/profile/sohailas</a></div></div>
+<div class="card"><h3>LeetCode</h3><p>DSA problem solving.</p><div class="links-list"><a href="https://leetcode.com/u/xwaVZmWqKX/" target="_blank"><span>🔗</span>leetcode.com/u/xwaVZmWqKX</a></div></div>
+</div></section>
+<section id="projects" class="section"><h2>Projects (GitHub)</h2>
+<div class="cards">
+<div class="card"><h3>FACE-DETECTION-BY-PYTHON-CODE</h3><a href="https://github.com/Sohail6306180329/FACE-DETECTION-BY-PYTHON-CODE" target="_blank">🔗 View</a></div>
+<div class="card"><h3>MIND_READER_GAME</h3><a href="https://github.com/Sohail6306180329/MIND_READER_GAME" target="_blank">🔗 View</a></div>
+<div class="card"><h3>Weather_Checking</h3><a href="https://github.com/Sohail6306180329/Weather_Checking" target="_blank">🔗 View</a></div>
+<div class="card"><h3>course_recommendation_system</h3><a href="https://github.com/Sohail6306180329/course_recommendation_system" target="_blank">🔗 View</a></div>
+<div class="card"><h3>Disease_prediction_system</h3><a href="https://github.com/Sohail6306180329/Disease_prediction_system" target="_blank">🔗 View</a></div>
+<div class="card"><h3>Object_Detection_System</h3><a href="https://github.com/Sohail6306180329/Object_Detection_System" target="_blank">🔗 View</a></div>
+</div></section>
+<section id="contact" class="section"><h2>Contact</h2>
+<p>Email: <a href="mailto:sohailahamad2000@gmail.com">sohailahamad2000@gmail.com</a></p>
+<p>Phone: <a href="tel:+916306180329">+91-6306180329</a></p>
+<p>GitHub: <a href="https://github.com/Sohail6306180329" target="_blank">github.com/Sohail6306180329</a></p>
+<p>LinkedIn: <a href="https://www.linkedin.com/in/sohail-ansari-9b2b72309/" target="_blank">linkedin.com/in/sohail-ansari-9b2b72309</a></p>
+</section>
+<footer>© 2025 Sohail Ansari · Portfolio</footer>
+</body>
+</html>
